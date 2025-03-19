@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 100px;
+    width: 100%;
+    background-image: url('https://townsquare.media/site/442/files/2014/03/the-maze-runner-poster1.jpg?w=980&q=75') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 100px;
+    height: 500px;
+}
+.error {
+    padding: 20px;
+    display: flex;
+}
+
+.close {
+    position: absolute;
+}
