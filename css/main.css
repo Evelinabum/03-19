@@ -1,29 +1,62 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     padding: 100px;
     width: 100%;
-    background-image: url('https://townsquare.media/site/442/files/2014/03/the-maze-runner-poster1.jpg?w=980&q=75') ;
+    background-image: url('https://townsquare.media/site/442/files/2014/03/the-maze-runner-poster1.jpg?w=980&q=75');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
-
 .container {
-    background: white;
+    background-color: white;
     display: flex;
-    width: 100%;
     justify-content: center;
-    padding: 100px;
+    align-items: center;
+    width: 70%;
     height: 500px;
-}
-.error {
-    padding: 20px;
-    display: flex;
+    position: relative;
+    margin-left: 180px;
 }
 
 .close {
-    position: absolute;
+   position: absolute;
+   top: 3px ;
+   right: 12px;
+   color: gray;
+   font-size: 35px;
 }
+.class-img{
+  margin-right:80px;
+}
+
+.error-text > h1{
+    font-size: 90px;
+    color: green;
+
+}
+
+.maze{
+  width: 250px;
+  color: green;
+  font-size: 20px;
+}
+
+.btn {
+   display: inline-block;
+   border-radius: 1px;
+   background-color: green;
+   text-decoration: none;
+   box-shadow: 1px 3px 3px green;
+   box-sizing: 40px;
+   padding: 10px 8px;
+   color: white;
+}
+
+
+
+
